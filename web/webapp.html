@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FACE MASK DETECTION</title>
+
+ 
+  <style>
+
+      p{
+          font-size: 25px
+      }
+      img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+body {
+    background-color: #d6c8f8;
+    font-family: 'Times New Roman', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', 'sans-serif';
+}
+
+.title {
+    color: #20124D;
+    text-align: center;
+    font-size: 75px;
+}
+
+.video {
+    background-color: rgb(10, 10, 90);
+    width: 70%;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+  </style>
+</head>
+
+<body bgcolor="#d6c8f8">
+
+  <div class="container">
+    <h1 class="title">FACE MASK DETECTION</h1>
+    <p>The pandemic has created a huge impact in our lives. Mask has become an essential part of living and hence it is important to wear it in public places to reduce the spread of virus. The face mask detection web app can be used in public places like shops, banks, etc, to only allow people wearing a face mask.
+      The face mask detection model detects if a person is wearing a mask or not by drawing a rectangle around the face with green and red colour showing "Wearing Mask" and "Not Wearing Mask" respectively.</p>
+    
+    <img src="{{ url_for('video_feed') }}" class="video">
+  </div>
+</body>
+</html>
