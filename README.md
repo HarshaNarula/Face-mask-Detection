@@ -14,6 +14,7 @@ The pandemic has created a huge impact in our lives. Mask has become an essentia
 The dataset consists of 3832 images belonging to:
 - with_mask - 1915 images
 - without_mask - 1917 images
+-  link- https://drive.google.com/drive/folders/1OQzY8sZ6MOykzrNQZx7LkWLcupkCYAnv?usp=sharing
 ## Working
 In the comand prompt:
 1. pip install Requirements.txt
